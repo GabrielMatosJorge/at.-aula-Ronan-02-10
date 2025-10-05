@@ -1,0 +1,216 @@
+/* Estilo geral do corpo */
+body {
+    background-color:midnightblue; /* Cor escura */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+    padding: 20px;
+    color: rgb(19, 210, 235);
+}
+
+/* Estilo da imagem */
+
+.logo-fachada-fatec {
+    background: linear-gradient(135deg, #eeff00, #ff0000d5, black); /* gradiente transparente */
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 4px solid #ff0606;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.logo-fachada-fatec img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+.container-img {
+    background-color: rgba(0, 0, 0, 0.616);
+    max-width: 400px;
+    max-height: 270px;
+    overflow: auto;
+    margin: 0 auto 30px auto;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.726);
+    text-align: center;
+}
+
+/* Estilo da seção de orientação */
+.orientacao {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+.orientacao h1 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Texto introdutório */
+.introducao p {
+    color: #00ff15;
+    text-align: center;
+    margin: 0;
+    font-size: 1rem;
+}
+
+
+code {
+    display: inline-block;
+    background-color: #55ec0f;
+    color: #00ff15;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-family: monospace;
+}
+
+/* Link como botão */
+a.btn {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+body {
+    background: linear-gradient(135deg, #198754, #00e439);
+    background: linear-gradient(135deg, #ffa600, #3d00e4);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 150px;
+    color: rgb(0, 0, 0);
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 
+    -1px -1px 0 black,  
+     1px -1px 0 rgb(35, 0, 131),
+    -1px  1px 0 rgb(0, 0, 0),
+     1px  1px 0 rgb(0, 238, 255);
+}
+
+/* Formulário css */
+form {
+    background-color: #11038db2;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 2px 10px rgb(0, 0, 0);
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+}
+
+/* Inputs */
+input.form-control {
+    border: 1px solid #000142e8;
+    border-radius: 5px;
+}
+
+/* Botões */
+button, a.btn {
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.container {
+    max-width: 100%;
+}
+
+
+/* Fundo com gradiente */
+body {
+    background-image: linear-gradient(135deg, #fbff00, #ff0000a9, black), /* gradiente com transparência */
+    url('https://blog.geekgamerstore.com.br/wp-content/uploads/2020/12/geek.jpg');                 /* imagem de fundo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    min-height: 112vh;
+}
+
+/* Container principal dos resultados */
+.container {
+    background-image: linear-gradient(135deg, #d9ff00af, #1b1b1b5d, rgb(255, 0, 0)), /* gradiente com transparência */
+    url('https://blog.geekgamerstore.com.br/wp-content/uploads/2020/12/geek.jpg');                /* imagem de fundo */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgb(255, 255, 255);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Container da tabuada */
+.container.bg-dark {
+    background-color: #ffffff;
+    color: #212529;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgb(0, 0, 0);
+    margin-bottom: 20px;
+    text-align:justify;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+
+
+
+/* Tabela da tabuada */
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: auto;
+    margin: auto;
+}
+
+table th, table td {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+/* Container da imagem */
+.container-box {
+    background-image: linear-gradient(135deg, #008cffa4, #00ff40a9); /* gradiente com transparência */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(0,0,0,5.2);
+    margin-bottom: 20px;
+    margin: 0 auto;
+    display:block;
+    height: auto;
+    max-width: 100%;
+}
+
+/* Imagem responsiva */
+img.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+
+
+
+
