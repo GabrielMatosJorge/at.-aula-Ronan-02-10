@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     <?php
     // verifica o numero digitado, cria a variavel $numero exibe o titulo da tabela/tabuada //
-    if (isset($_POST['número']) && is_numeric($_POST['número'])) {
+    if (isset($_POST['número']) & ($_POST['número'])) {
         $numero = $_POST['número'];
         echo "Número: $numero<br><br>";
         ?>
